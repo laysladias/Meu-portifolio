@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <style>
+            h1 {
+              color: blue;
+            }
+            #titulo-principal {
+              color: green; 
+            } 
+            .subtitulo {
+              color: rgb(255, 187, 0);
+            }
+            header{
+            background-color:rgb(55, 204, 192);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;}
+    .button-container button{
+    background-color:rgb(52, 158, 177);
+    color:white;
+    border: none;
+    padding: 1px 5px;
+    margin: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button-container button:hover {
+    background-color:rgb(20, 57, 63);
+}
+main {
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+          </style>      
+    </head>
+    <header>
+        <center><h2>Estilos Em Cascata</h2>
+     <div class="button-container">
+         <button onclick="window.location.href='INDEX .html'">Voltar</button>
+     </div></center> </header>
+    <body>
+      <main>
+        <section>
+     <h1>Cascata</h1>
+    <p> O conceito de "cascata" em CSS refere-se à forma 
+        como o navegador decide qual regra aplicar quando há várias regras 
+        para um mesmo elemento.
+        
+    </p>
+  <h1 id="titulo-principal">Título Principal(Id)</h1>
+    <p> IDs são usados para estilizar elementos únicos.
+        Cada ID deve ser único dentro da página definido com # 
+        para aplicar estilos específicos via CSS na página.
+        <p/>
+  <h1 class="subtitulo">Classe</h1>
+        <p> Um elemento pode ter várias classes. 
+            As classes são definidas com um ponto (.) no CSS.
+            <p/>
+  <h1>Elemento</h1>
+        <p> É todos os elementos do mesmo tipo
+            como (p,h1...) na página. <p/>
+          </section>
+          </main>      
+</body>
+</html>
+
+
